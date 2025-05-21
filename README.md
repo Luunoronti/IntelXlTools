@@ -1,3 +1,16 @@
+# xl520_unlock (2x1GBe and 2x10GBe)
+
+under ubuntu linux
+```shell
+git clone
+cd folder
+ip link show (note names, like eno1, eno4, etc)
+sudo python3 intel_x520_patcher.py
+reboot
+```
+
+
+
 # xl710_unlock
 
 This program unlocks intel xl710 NICs.
